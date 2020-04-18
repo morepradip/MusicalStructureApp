@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/google_talks"
+        android:text="@string/google_talks"
+        style="@style/CategoryStyle"
+        android:background="@color/category_google_talks"/>
+    <TextView
+        android:id="@+id/startup_school"
+        android:text="@string/startup_school"
+        android:background="@color/category_startup_school"
+        style="@style/CategoryStyle"/>
+
+</LinearLayout>
